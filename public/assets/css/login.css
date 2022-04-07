@@ -1,0 +1,286 @@
+.modal-dialog-slideout
+{
+  /*  min-height: 100%;*/
+    margin: 0 0 0 auto;
+    background: #fff;
+}
+
+.modal.fade .modal-dialog.modal-dialog-slideout 
+{
+    -webkit-transform: translate(100%,0)scale(1);
+    transform: translate(100%,0)scale(1);
+}
+
+.modal.fade.show .modal-dialog.modal-dialog-slideout
+{
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+    display: flex;
+    align-items: stretch;
+    -webkit-box-align: stretch;
+    height: 100%;
+}
+
+.modal.fade.show .modal-dialog.modal-dialog-slideout .modal-body 
+{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.modal-dialog-slideout .modal-content 
+{
+    border: 0;
+}
+
+.modal-dialog-slideout .modal-header, .modal-dialog-slideout .modal-footer 
+{
+    height:40px;
+    display: block;
+}
+
+.modal-dialog-slideout .modal-header h5
+{
+    float: left;
+}
+
+.cool 
+{
+    width: 100%;
+    padding: 15px 30px;
+    border: 1px solid #c0bbbb;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    max-height: 56px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active,
+input:-webkit-autofill:focus {
+    background-color: #FFFFFF !important;
+    color: #555 !important;
+    -webkit-box-shadow: 0 0 0 1000px white inset !important;
+    -webkit-text-fill-color: #555555 !important;
+}
+
+.modal
+{
+z-index:9999 !important;
+padding-right:0px!important;
+}
+
+
+.modal-content {
+ 
+    background-image: url('../images/loginback.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.newlabel {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    font-size: 15px;
+    margin: 10px 32px;
+    padding: 4px 0px 0px 4px;
+    background-color: #fff;
+    -webkit-transition: top .2s ease-in-out, font-size .2s ease-in-out;
+    transition: top .2s ease-in-out, font-size .2s ease-in-out;
+    color: #454343;
+}
+
+input:focus + label {
+   
+    color:red;
+}
+
+.input-group i 
+{
+    position: absolute;
+    top: 16px;
+    left: 12px;
+    color:#5d81f4;
+    font-size:14px;
+}
+
+.msg1
+{
+    color:#606060;
+    font-size:13px;
+    line-height:20px;
+    font-weight:500;
+}
+
+.red 
+{
+    color:#ff4d4d;
+}
+
+.modal-header 
+{
+    border:none;
+}
+
+.login-inner-form
+{
+    padding: 10px 0px;
+}
+
+.active1 {
+    top: -27px;
+    font-size: 13px;
+    color: #7b7979;
+}
+
+.modal-dialog
+{
+    max-width:450px;
+}
+
+.error
+{
+    font-size: 14px;
+    color: red;
+    padding-left:10px;
+}
+
+.modalheading1 {
+    font-weight: 500;
+    text-align: center;
+    font-size: 22px;
+}
+
+.pd-lg-0 {
+    padding: 0px;
+}
+
+.login-inner-form .checkbox a {
+    font-size: 14px;
+    color: #f44336;
+    float: right;
+    margin-left: 3px;
+    margin-right: 10px;
+    font-weight:500;
+}
+
+.login-inner-form p 
+{
+    color: #68686a;
+}
+
+.text a {
+    color: #0056b4
+}
+
+.logintab .nav-item .nav-link
+{
+    font-size: 1.3rem;
+    color: #919191;
+    border-radius: 0rem;
+}
+
+.brdright 
+{
+    border-right:solid 2px #cbc9c9;
+}
+
+.logintab .nav-link.active, .nav-pills .show > .nav-link 
+{
+    background:transparent;
+    border-radius:0rem;
+    color:#000;
+}
+
+.mb-20
+{
+margin-bottom:20px;
+}
+
+.mb-10
+{
+   margin-bottom:10px;
+}
+
+.modaltab 
+{
+    border: none !important;
+    justify-content:center;
+}
+
+.modaltab li a
+{
+ 
+    font-weight:500;
+    color:#c0bbbb;
+    font-size:17px;
+}
+
+
+.modaltab .nav-item.show .nav-link, .nav-tabs .nav-link.active 
+{
+    border :none!important;
+}
+
+.referbtn
+{
+    background: 0 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #2d60fa;
+    background: transparent;
+    font-size: 17px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-weight: 500;
+}
+
+
+.refverifybtn 
+{
+    position: absolute;
+    right: 0px;
+    color: #295efe;
+    top: 7px;
+}
+
+.removebtn
+{
+position:absolute ;
+top:2px;
+right:0px;
+}
+
+.refcode 
+{
+    font-size:16px;
+    background: #fdd835;
+    color: #fc0b0b;
+    padding:6px 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    background-image: url('../images/right-tick.png');
+    background-repeat:no-repeat;
+    background-position:4px;
+}
+
+.refmsg 
+{
+   font-size:14px;
+   font-weight:500;
+}
+
+.text-green {
+    color: #026a02!important
+}
+
+.text-red {
+    color: #fc0b0b !important
+}
+
+.text-black {
+    color:#3d3b3b !important
+}
